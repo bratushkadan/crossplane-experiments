@@ -1,0 +1,4 @@
+apiVersion: v1
+resource: Namespace
+metadata:
+  name: crossplane-system

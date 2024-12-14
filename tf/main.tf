@@ -13,6 +13,8 @@ resource "yandex_kubernetes_cluster" "this" {
 
     security_group_ids = [yandex_vpc_security_group.this.id]
 
+    public_ip = true
+
     maintenance_policy {
       auto_upgrade = false
     }
